@@ -9,7 +9,6 @@ readme = "README.md"
 python = "^3.12"
 bot-whatsapp = "^0.0.6"
 tiny-ai-client = {extras = ["gemini"], version = "^0.0.7"}
-google-generativeai = "^0.6.0"
 
 
 [build-system]
