@@ -25,7 +25,7 @@ async def transcribe(audio_file_path: str) -> str:
 async def summarize(long_text: str) -> str:
     SYSTEM = "You are a text summarizer. Summarize the following transcribed voice note with bullet points on its original language."
     ai = AsyncAI(
-        "gpt-4o",
+        "gemini-1.5-pro",
         max_new_tokens=512,
         system=SYSTEM,
         timeout=30,
