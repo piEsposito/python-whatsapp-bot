@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "audio-writer"
+version = "0.0.1"
+description = "Writes WhatsApp Audios"
+authors = ["piEsposito <pi@piesposi.to>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bot-whatsapp = "^0.0.6"
+tiny-ai-client = {extras = ["gemini"], version = "^0.0.7"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
